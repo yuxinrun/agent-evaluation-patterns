@@ -398,7 +398,7 @@ jobs:
 | `promote-baseline` 只在 success 时跑 | 基线一旦被坏版本污染，后面所有对比都失效 |
 
 ::: warning 别把密钥写进日志
-`run:` 步骤里如果出现 `echo ${{ secrets.X }}`，密钥会进日志。用 `env:` 注入，且评测脚本不要打印请求头。
+`run:` 步骤里如果直接 `echo` 密钥变量（如 `secrets.X`），密钥会进日志。用 `env:` 注入，且评测脚本不要打印请求头。
 :::
 
 <div class="a-src">

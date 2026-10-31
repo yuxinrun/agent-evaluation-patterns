@@ -1,6 +1,6 @@
 ---
 title: How to read this book
-description: How to use this agent evaluation field guide: the three-layer structure, diagram legend, three reading paths and site tips.
+description: "How to use this agent evaluation field guide: the three-layer structure, diagram legend, three reading paths and site tips."
 outline: [2, 3]
 ---
 

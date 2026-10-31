@@ -1,5 +1,5 @@
 ---
-title: 00 · Opening: the QA floor for agents
+title: "00 · Opening: the QA floor for agents"
 description: How agent evals differ from LLM evals, the three failure stories that follow without them, the four goals, and how evaluation connects to observability.
 outline: [2, 3]
 ---

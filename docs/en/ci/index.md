@@ -398,7 +398,7 @@ jobs:
 | `promote-baseline` only on success | Once a bad version pollutes the baseline, every later comparison is invalid |
 
 ::: warning Never let secrets into logs
-An `echo ${{ secrets.X }}` inside `run:` leaks the key into the log. Inject via `env:`, and never print request headers from the eval script.
+An `echo` of a secret variable (such as `secrets.X`) inside `run:` leaks the key into the log. Inject via `env:`, and never print request headers from the eval script.
 :::
 
 <div class="a-src">
