@@ -1,0 +1,21 @@
+{
+  "name": "agent-evaluation-patterns",
+  "private": true,
+  "version": "1.0.0",
+  "description": "The complete field guide to AI agent evaluation engineering / AI Agent 评估工程模式完全手册",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/build-search.mjs && vitepress dev docs",
+    "build": "node scripts/build-search.mjs && vitepress build docs",
+    "preview": "vitepress preview docs",
+    "search": "node scripts/build-search.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/jetbrains-mono": "^5.3.0",
+    "@fontsource-variable/manrope": "^5.3.0"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.13"
+  }
+}
